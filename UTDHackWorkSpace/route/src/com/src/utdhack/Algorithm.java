@@ -1,17 +1,18 @@
-package utdhack;
+package com.src.utdhack;
 
 import java.util.*;
 public class Algorithm {
 	
-	 public static void main(String[] args) {
+	/* public  
 
 		 ArrayList<Domain> attractionList = new ArrayList<Domain>();
+		 
 		 
 		 // required Sorted List
 		 
 		 // two solution
 		 // optimal solution : dynamic programming
-		 ArrayList<Domain> Test = new ArrayList<Domain>();
+		 /*ArrayList<Domain> Test = new ArrayList<Domain>();
 		 Test.add(new Domain(1,1, 2));
 		 Test.add(new Domain(2,3, 2));
 		 Test.add(new Domain(3,4, 1));
@@ -33,8 +34,8 @@ public class Algorithm {
 		 
 		 // another one is approximate solusion : FPTAS
 		 
-	 }
-	 public static ArrayList<attractionList> Run(ArrayList<Domain> attractions, float TimeConstraint, float CostConstraint){
+	 }*/
+	 public  List<attractionList> Run(List<Domain> attractions, float TimeConstraint, float CostConstraint){
 		 // Array of solution
 		 ArrayList<attractionList> CurrentList = new ArrayList<attractionList>();
 		 // previous solution
